@@ -1,0 +1,11 @@
+{
+    "require": {
+        "lawiet/nusoap": "^0.1.0",
+        "lindelius/php-jwt": "^0.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IpinApp\\": "src/"
+        }
+    }
+}

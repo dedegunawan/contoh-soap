@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6251105f98b52c2a993518652aae72ed",
+    "packages": [
+        {
+            "name": "lawiet/nusoap",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lawiet/nusoap.git",
+                "reference": "4777ad5ee24a7694ba5358995e24253d9193c847"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lawiet/nusoap/zipball/4777ad5ee24a7694ba5358995e24253d9193c847",
+                "reference": "4777ad5ee24a7694ba5358995e24253d9193c847",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "lawiet\\": "",
+                    "lawiet\\src\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Jorge Gonzalez"
+                }
+            ],
+            "description": "NuSOAP PHP library",
+            "keywords": [
+                "nusoap",
+                "soap",
+                "web services",
+                "webservices",
+                "ws",
+                "wsdl"
+            ],
+            "time": "2017-09-06T19:36:18+00:00"
+        },
+        {
+            "name": "lindelius/php-jwt",
+            "version": "0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lindelius/php-jwt.git",
+                "reference": "930e305c23530e9346442dda97c66fb58db2d99d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lindelius/php-jwt/zipball/930e305c23530e9346442dda97c66fb58db2d99d",
+                "reference": "930e305c23530e9346442dda97c66fb58db2d99d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "ext-openssl": "*",
+                "php": "^7.1",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lindelius\\JWT\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Lindelius",
+                    "email": "tom.lindelius@gmail.com"
+                }
+            ],
+            "description": "Convenience library for working with JSON Web Tokens (JWT) in PHP",
+            "homepage": "https://github.com/lindelius/php-jwt",
+            "keywords": [
+                "helpers",
+                "jwt",
+                "php"
+            ],
+            "time": "2018-07-24T21:41:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
