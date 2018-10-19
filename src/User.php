@@ -53,10 +53,14 @@ class User
             $jwt->encode($privateKey);
 
             $milliseconds = 1000 * (microtime(true) - $startTime);
-            return [
+            $tokens = [
                 'token'    => $jwt->getHash(),
                 'key'      => $publicKey,
             ];
+
+            file_put_contents("time_1.txt", $milliseconds);
+
+            return $tokens;
 
         }
         throw new \Exception("Login Error");

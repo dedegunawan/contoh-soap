@@ -21,7 +21,10 @@ class IsAuthenticated
     {
         $this->setServer($GLOBALS['server']);
         $this->setTokenObject($this->getServer()->requestHeader);
+        $start = microtime(true);
         $this->cekToken();
+        $end = microtime(true);
+        file_put_contents("time_2.txt", ($end-$start)*1000);
 
     }
 

@@ -40,7 +40,7 @@ else if ( !isset($_SESSION['token'])  && isset($_REQUEST['do_login'])) {
         } else {
             echo "<h2>Main</h2>";
             $_SESSION['token'] = $result;
-            echo "<script>window.location.reload();</script>";
+//            echo "<script>window.location.reload();</script>";
         }
     }
 
